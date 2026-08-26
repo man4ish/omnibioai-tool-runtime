@@ -55,7 +55,7 @@ addopts      = "-v --tb=short"
 
 # ── coverage ──────────────────────────────────────────────────────────────────
 [tool.coverage.run]
-source   = ["omni_tool_runtime"]
+source   = ["omni_tool_runtime", "tools"]
 branch   = true
 
 [tool.coverage.report]
